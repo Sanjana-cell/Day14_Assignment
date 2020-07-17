@@ -46,7 +46,7 @@ function mobileNoValidation(){
 	fi
 }
 function passwordValidation(){
-	pattern_4="^[a-zA-Z0-9@#$&+-.$%^&*(),;\"\'?/]{8,}$"
+	pattern_4="[A-Z]+[a-zA-Z0-9@#$&+-.$%^&*(),;\"\'?/]{8,}$"
 	if [[ $1 =~ $pattern_4 ]]
 	then
 		echo 1
